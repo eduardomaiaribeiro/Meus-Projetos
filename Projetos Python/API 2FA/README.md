@@ -66,6 +66,20 @@ pytest
 ## Exemplo de uso
 Veja exemplos de requisições no arquivo `tests/test_main.py`.
 
+## 📝 Como acessar o Swagger (OpenAPI)
+
+Após iniciar o servidor, acesse a documentação interativa gerada automaticamente pelo Swagger UI:
+
+- Abra o navegador e vá para: [http://127.0.0.1:8000/docs](http://127.0.0.1:8000/docs)
+
+Você poderá:
+- Visualizar todos os endpoints disponíveis
+- Testar requisições diretamente pela interface
+- Ver exemplos de request/response
+- Conferir descrições, parâmetros e modelos de dados
+
+Se preferir, utilize também a documentação alternativa gerada pelo ReDoc em [http://127.0.0.1:8000/redoc](http://127.0.0.1:8000/redoc).
+
 ---
 
 > Substitua variáveis sensíveis e configure o ambiente conforme necessário.

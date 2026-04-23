@@ -57,13 +57,21 @@ fastapi dev main.py
 uvicorn main:app --reload
 ```
 
-## 📚 Documentação da API
+## 📝 Como acessar o Swagger (OpenAPI)
 
-O FastAPI gera automaticamente duas documentações interativas e muito úteis para sua API, baseadas no OpenAPI:
+Após iniciar o servidor, acesse a documentação interativa gerada automaticamente pelo Swagger UI:
 
-*   **Swagger UI**: Acesse `http://127.0.0.1:8000/docs` para uma interface de teste interativa.
-*   **ReDoc**: Acesse `http://127.0.0.1:8000/redoc` para uma visão alternativa e elegante da documentação.
+- Abra o navegador e vá para: [http://127.0.0.1:8000/docs](http://127.0.0.1:8000/docs)
 
+Você poderá:
+- Visualizar todos os endpoints disponíveis
+- Testar requisições diretamente pela interface
+- Ver exemplos de request/response
+- Conferir descrições, parâmetros e modelos de dados
+
+Se preferir, utilize também a documentação alternativa gerada pelo ReDoc em [http://127.0.0.1:8000/redoc](http://127.0.0.1:8000/redoc).
+
+---
 ## 🧩 Endpoints Disponíveis
 
 | Método | Rota             | Descrição                                 |
