@@ -1,0 +1,39 @@
+{
+  "openapi": "3.0.0",
+  "info": {
+    "title": "Exemplo API Backend",
+    "version": "1.0.0",
+    "description": "API simples para demonstração de integração backend/frontend."
+  },
+  "servers": [
+    {
+      "url": "http://localhost:3000",
+      "description": "Servidor local"
+    }
+  ],
+  "paths": {
+    "/api/hello": {
+      "get": {
+        "summary": "Retorna uma mensagem de saudação",
+        "responses": {
+          "200": {
+            "description": "Mensagem de saudação",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "message": {
+                      "type": "string",
+                      "example": "Hello from backend!"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
