@@ -64,13 +64,4 @@ Cada pasta temática pode conter subpastas para projetos individuais, cada um co
 - Os projetos de IA possuem exemplos de notebooks, integração com APIs e experimentos com LLMs.
 - Os projetos Python abrangem desde lógica básica até automações e jogos.
 
----
-
-## 🤝 Contribuição
-
-Sugestões, dúvidas ou contribuições são bem-vindas! Abra uma issue ou envie um pull request.
-
----
-
-**Explore, aprenda e inove!**
 
